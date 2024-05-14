@@ -19,9 +19,9 @@ Please share the following information about yourself. Each team member should t
 
   ---
   - **Name:** Foster Sawyer
-  - **Pronouns:** [Your Pronouns]He_Him_His
-  - **Expertise:** [Your Expertise]Geology and Ground Water Hydrology
-  - **Environmental Data Science Superpower:** [Describe your unique skill or interest in environmental data science]Experienced in map publication
+  - **Pronouns:** He_Him_His
+  - **Expertise:** Geology and Ground Water Hydrology
+  - **Environmental Data Science Superpower:** Experienced in map publication
   - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
 
   ---

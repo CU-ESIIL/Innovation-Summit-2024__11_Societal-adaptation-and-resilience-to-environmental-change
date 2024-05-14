@@ -25,11 +25,11 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
 
   ---
-  - **Name:** [Your Name]
-  - **Pronouns:** [Your Pronouns]
-  - **Expertise:** [Your Expertise]
-  - **Environmental Data Science Superpower:** [Describe your unique skill or interest in environmental data science]
-  - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
+  - **Name:** Scott Ortman
+  - **Pronouns:** He/his
+  - **Expertise:** Archaeology, complex systems
+  - **Environmental Data Science Superpower:** Scale, especially time
+  - **Reflection on Polarities Exercise:** I found myself performing the polarities after the prompts
 
   ---
   - **Name:** [Your Name]

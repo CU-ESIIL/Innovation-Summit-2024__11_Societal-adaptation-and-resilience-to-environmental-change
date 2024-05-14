@@ -50,7 +50,7 @@ Please share the following information about yourself. Each team member should t
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)
 Write the research question your team selected in the space below. Feel free to revise the original question.
 
-- [Insert research question here]
+- Societal Adaptation/Resilience to Environmental Change: What is the response of human societies to past and present environmental challenges and how mught they respond in the future?
 
 
 ## Project Title (approx. time: 5-10 mins)

@@ -18,7 +18,7 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** I was never really on any extreme
 
   ---
-  - **Name:** [Your Name]Foster Sawyer
+  - **Name:** Foster Sawyer
   - **Pronouns:** [Your Pronouns]He_Him_His
   - **Expertise:** [Your Expertise]Geology and Ground Water Hydrology
   - **Environmental Data Science Superpower:** [Describe your unique skill or interest in environmental data science]Experienced in map publication

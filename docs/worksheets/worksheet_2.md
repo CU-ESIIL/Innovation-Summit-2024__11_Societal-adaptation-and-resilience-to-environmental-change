@@ -39,6 +39,12 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
 
   ---
+  - **Name:** [Robyn Marowitz](https://github.com/rmarow)
+  - **Pronouns:** She/her/hers
+  - **Expertise:** Software Development
+  - **Environmental Data Science Superpower:** Skills in scientific python programming, expertise in cryospheric data
+  - **Reflection on Polarities Exercise:** I often find myself in the middle
+  ---
   - Continue adding more team members following the same format, with a line break after each person.
   ---
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)

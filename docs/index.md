@@ -1,6 +1,6 @@
 ![](./assets/esiil_content/Summit_Header.png)
 
-# Group 11 --- Societal adaptation/resilience to environmental change 
+# Group 11 --- Societal adaptation and resilience to environmental change 
 
 !!! Success "Provocative question"
 

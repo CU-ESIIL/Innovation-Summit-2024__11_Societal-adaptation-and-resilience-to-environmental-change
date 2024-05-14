@@ -14,7 +14,7 @@ Welcome to the **[Your Team Name]** repository, an integral part of ESIIL and Ea
 
 
 ## Group Members
-- Member 1: Brief description
+- [Keiko Nomura](http://www.keikonom.com/): PhD Student at Oregon State, studying rivers and fisheries - social sciences, oceans
 - Member 2: Brief description
 - ...
 - [Link to more detailed bios or profiles if available and desired.]

@@ -11,7 +11,7 @@ Work through the prompts in order. Please use a decision-making method “to dec
 ## Introductions (approx. time: 10 mins total or "1-2 breaths" per prompt)
 Please share the following information about yourself. Each team member should type their response in the space below (create more as needed).
 
-  - **Name:** Keiko Nomura
+  - **Name:** [Keiko Nomura](http://www.keikonom.com/)
   - **Pronouns:** she/her
   - **Expertise:** R, network analysis, fisheries, social-ecological systems, natural resource management
   - **Environmental Data Science Superpower:** identifying research questions, interpreting data w/ qualitative management context 

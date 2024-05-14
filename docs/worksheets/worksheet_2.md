@@ -50,13 +50,17 @@ Please share the following information about yourself. Each team member should t
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)
 Write the research question your team selected in the space below. Feel free to revise the original question.
 
+
+- Can we find patterns in a hot/arid climate for societal adaptation and resilience? (water)
+
 - Societal Adaptation/Resilience to Environmental Change: What is the response of human societies to past and present environmental challenges and how mught they respond in the future?
+
 
 
 ## Project Title (approx. time: 5-10 mins)
 Craft a catchy title for your team’s project. Think of something that would grab attention at a conference or in a headline.
 
-- [Insert title here]
+-  Using Arizona to observe the relationships/feedback loops between water, land, and people.
 
 
 ## Promoting Resilience and Adaptation

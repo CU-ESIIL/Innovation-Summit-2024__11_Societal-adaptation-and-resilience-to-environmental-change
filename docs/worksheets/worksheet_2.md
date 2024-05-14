@@ -18,10 +18,10 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** I was never really on any extreme
 
   ---
-  - **Name:** [Your Name]
-  - **Pronouns:** [Your Pronouns]
-  - **Expertise:** [Your Expertise]
-  - **Environmental Data Science Superpower:** [Describe your unique skill or interest in environmental data science]
+  - **Name:** [Your Name]Foster Sawyer
+  - **Pronouns:** [Your Pronouns]He_Him_His
+  - **Expertise:** [Your Expertise]Geology and Ground Water Hydrology
+  - **Environmental Data Science Superpower:** [Describe your unique skill or interest in environmental data science]Experienced in map publication
   - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
 
   ---

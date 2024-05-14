@@ -45,6 +45,12 @@ Please share the following information about yourself. Each team member should t
   - **Environmental Data Science Superpower:** Skills in scientific python programming, expertise in cryospheric data
   - **Reflection on Polarities Exercise:** I often find myself in the middle
   ---
+  - **Name:** [Min Gon Chung](https://mingonchung.github.io)
+  - **Pronouns:**he/him/his
+  - **Expertise:** Postdoc
+  - **Environmental Data Science Superpower:** Open data science, R, cross-sectoral data harmonization
+  - **Reflection on Polarities Exercise:** middle
+  - 
   - Continue adding more team members following the same format, with a line break after each person.
   ---
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)

@@ -32,11 +32,11 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** I found myself performing the polarities after the prompts
 
   ---
-  - **Name:** [Your Name]
-  - **Pronouns:** [Your Pronouns]
-  - **Expertise:** [Your Expertise]
-  - **Environmental Data Science Superpower:** [Describe your unique skill or interest in environmental data science]
-  - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
+  - **Name:** [Jada Szympruch]
+  - **Pronouns:** [She/her]
+  - **Expertise:** [Biological Sciences/Anthropolgy]
+  - **Environmental Data Science Superpower:** []
+  - **Reflection on Polarities Exercise:** [Many internal processers in the group]
 
   ---
   - **Name:** [Robyn Marowitz](https://github.com/rmarow)

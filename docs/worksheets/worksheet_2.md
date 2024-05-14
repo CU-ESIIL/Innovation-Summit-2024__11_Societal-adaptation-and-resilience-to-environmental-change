@@ -25,7 +25,7 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** [Share one thing you observed about yourself]
 
   ---
-  - **Name:** Scott Ortman
+  - **Name:** [Scott Ortman](https://experts.colorado.edu/display/fisid_152978)
   - **Pronouns:** He/his
   - **Expertise:** Archaeology, complex systems
   - **Environmental Data Science Superpower:** Scale, especially time

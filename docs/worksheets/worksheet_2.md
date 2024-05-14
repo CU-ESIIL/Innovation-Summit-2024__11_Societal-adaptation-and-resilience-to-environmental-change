@@ -44,6 +44,14 @@ Please share the following information about yourself. Each team member should t
   - **Expertise:** Software Development
   - **Environmental Data Science Superpower:** Skills in scientific python programming, expertise in cryospheric data
   - **Reflection on Polarities Exercise:** I often find myself in the middle
+
+---
+  - **Name:** Jason Tinant
+  - **Pronouns:** He_They
+  - **Expertise:** Water Resources Engineering
+  - **Environmental Data Science Superpower:** Deep love of statistics, spatial data, tidyvers
+  - **Reflection on Polarities Exercise:** [I contain multitudes]
+  - 
   ---
   - Continue adding more team members following the same format, with a line break after each person.
   ---

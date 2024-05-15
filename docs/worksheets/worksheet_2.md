@@ -52,8 +52,9 @@ Please share the following information about yourself. Each team member should t
   - **Environmental Data Science Superpower:** Open data science, R, cross-sectoral data harmonization
   - **Reflection on Polarities Exercise:** middle
 
-  - Continue adding more team members following the same format, with a line break after each person.
   ---
+  - Continue adding more team members following the same format, with a line break after each person.
+    
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)
 Write the research question your team selected in the space below. Feel free to revise the original question.
 

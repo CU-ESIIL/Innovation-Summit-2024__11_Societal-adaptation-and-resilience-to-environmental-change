@@ -8,7 +8,7 @@ Welcome to the  repository, an integral part of ESIIL and Earth Lab's climate ch
 ## Our Project: Demographic and Economic Costs of Climate Change in an Arid Ecosystem
 Hypothesis: Climate change will result in demographic changes with commensurate costs.
 
-We hypothesize that climate change in arid regions such as Arizona will result in population shifts and increased costs related to agriculture, water supply, energy use, and other resources. Evaluating historical trends in temperature, water use, agricultural production, energy use, and population distribution may be informative with respect to future changes related to climate change.
+We hypothesize that climate change in arid regions such as Arizona will result in population shifts and increased costs related to agriculture, water supply, energy use, and other resources. Evaluating historical trends in temperature, water use, agricultural production, energy use, land values, and population distribution may be informative with respect to future changes related to climate change.
 
 ## Documentation
 - Access detailed documentation on our [GitHub Pages site](https://your-gh-pages-url/).

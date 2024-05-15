@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/800256585.svg)](https://zenodo.org/doi/10.5281/zenodo.11188994)
 
-# [Your Team Name]
+# Snow Birds
 
 Welcome to the  repository, an integral part of ESIIL and Earth Lab's climate change response Codefest. This repository is the central hub for our team, encompassing our project overview, team member information, codebase, and more...
 

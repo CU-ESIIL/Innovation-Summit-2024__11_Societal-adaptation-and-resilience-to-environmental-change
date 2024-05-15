@@ -14,10 +14,11 @@ Welcome to the **[Your Team Name]** repository, an integral part of ESIIL and Ea
 
 
 ## Group Members
-- [Keiko Nomura](http://www.keikonom.com/): PhD Student at Oregon State, studying rivers and fisheries - social sciences, oceans
-- Member 2: Brief description
-- ...
-- [Link to more detailed bios or profiles if available and desired.]
+- [Keiko Nomura](http://www.keikonom.com/)
+- Foster Sawyer
+- [Scott Ortman](https://experts.colorado.edu/display/fisid_152978)
+- [Robyn Marowitz](https://github.com/rmarow)
+- [Min Gon Chung](https://mingonchung.github.io)
 
 ## Code Repository Structure
 - **Data Processing**: Scripts for cleaning, merging, and managing datasets.

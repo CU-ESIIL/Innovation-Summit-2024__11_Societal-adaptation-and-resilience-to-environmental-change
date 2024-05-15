@@ -53,6 +53,13 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** middle
 
   ---
+  - **Name:** Charles Jason Tinant
+  - **Pronouns:** he/they
+  - **Expertise:** Water resources engineering
+  - **Environmental Data Science Superpower:** R
+  - **Reflection on Polarities Exercise:** middle
+
+  ---
   - Continue adding more team members following the same format, with a line break after each person.
     
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)

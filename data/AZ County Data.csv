@@ -1,0 +1,270 @@
+"","GIS.Join.Match.Code","Row.Source.Year","NHGIS.Integrated.State.Name","FIPS.State.Code","NHGIS.Integrated.State.Code","NHGIS.Integrated.County.Name","FIPS.County.Code","NHGIS.Integrated.County.Code","Year.Specific.Area.Name","Persons..Total","Persons..Urban","Persons..Rural","Median.income.in.previous.year..Households"
+"1","G0400010","1980","Arizona",4,40,"Apache County",1,10,"APACHE COUNTY",52108,12405,39703,11057
+"2","G0400030","1980","Arizona",4,40,"Cochise County",3,30,"COCHISE COUNTY",85686,52582,33104,13668
+"3","G0400050","1980","Arizona",4,40,"Coconino County",5,50,"COCONINO COUNTY",75008,46473,28535,15962
+"4","G0400070","1980","Arizona",4,40,"Gila County",7,70,"GILA COUNTY",37080,19951,17129,13828
+"5","G0400090","1980","Arizona",4,40,"Graham County",9,90,"GRAHAM COUNTY",22862,10384,12478,12479
+"6","G0400110","1980","Arizona",4,40,"Greenlee County",11,110,"GREENLEE COUNTY",11406,6981,4425,21396
+"7","G0400130","1980","Arizona",4,40,"Maricopa County",13,130,"MARICOPA COUNTY",1509052,1437392,71660,17728
+"8","G0400150","1980","Arizona",4,40,"Mohave County",15,150,"MOHAVE COUNTY",55865,35530,20335,14160
+"9","G0400170","1980","Arizona",4,40,"Navajo County",17,170,"NAVAJO COUNTY",67629,24857,42772,13593
+"10","G0400190","1980","Arizona",4,40,"Pima County",19,190,"PIMA COUNTY",531443,468810,62633,15796
+"11","G0400210","1980","Arizona",4,40,"Pinal County",21,210,"PINAL COUNTY",90918,54077,36841,14478
+"12","G0400230","1980","Arizona",4,40,"Santa Cruz County",23,230,"SANTA CRUZ COUNTY",20459,15683,4776,14575
+"13","G0400250","1980","Arizona",4,40,"Yavapai County",25,250,"YAVAPAI COUNTY",68145,31053,37092,13076
+"14","G0400270","1980","Arizona",4,40,"Yuma County",27,270,"YUMA COUNTY",90554,62550,28004,13589
+"15","G0400010","1990","Arizona",4,40,"Apache County",1,10,"Apache County",61591,20173,41418,14100
+"16","G0400030","1990","Arizona",4,40,"Cochise County",3,30,"Cochise County",97624,68265,29359,22425
+"17","G0400050","1990","Arizona",4,40,"Coconino County",5,50,"Coconino County",96591,64136,32455,26112
+"18","G0400070","1990","Arizona",4,40,"Gila County",7,70,"Gila County",40216,20326,19890,20964
+"19","G0400090","1990","Arizona",4,40,"Graham County",9,90,"Graham County",26554,11122,15432,18455
+"20","G0400110","1990","Arizona",4,40,"Greenlee County",11,110,"Greenlee County",8008,2820,5188,27491
+"21","G0400120","1990","Arizona",4,40,"La Paz County",12,120,"La Paz County",13844,2897,10947,16555
+"22","G0400130","1990","Arizona",4,40,"Maricopa County",13,130,"Maricopa County",2122101,2045271,76830,30797
+"23","G0400150","1990","Arizona",4,40,"Mohave County",15,150,"Mohave County",93497,80008,13489,24002
+"24","G0400170","1990","Arizona",4,40,"Navajo County",17,170,"Navajo County",77658,28770,48888,19452
+"25","G0400190","1990","Arizona",4,40,"Pima County",19,190,"Pima County",666880,616367,50513,25401
+"26","G0400210","1990","Arizona",4,40,"Pinal County",21,210,"Pinal County",116379,68903,47476,21301
+"27","G0400230","1990","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County",29676,19489,10187,22066
+"28","G0400250","1990","Arizona",4,40,"Yavapai County",25,250,"Yavapai County",107714,70672,37042,22060
+"29","G0400270","1990","Arizona",4,40,"Yuma County",27,270,"Yuma County",106895,87754,19141,23635
+"30","G0400010","2000","Arizona",4,40,"Apache County",1,10,"Apache County",69423,16601,52822,23344
+"31","G0400030","2000","Arizona",4,40,"Cochise County",3,30,"Cochise County",117755,78223,39532,32105
+"32","G0400050","2000","Arizona",4,40,"Coconino County",5,50,"Coconino County",116320,74568,41752,38256
+"33","G0400070","2000","Arizona",4,40,"Gila County",7,70,"Gila County",51335,28279,23056,30917
+"34","G0400090","2000","Arizona",4,40,"Graham County",9,90,"Graham County",33489,14862,18627,29668
+"35","G0400110","2000","Arizona",4,40,"Greenlee County",11,110,"Greenlee County",8547,4292,4255,39384
+"36","G0400120","2000","Arizona",4,40,"La Paz County",12,120,"La Paz County",19715,8609,11106,25839
+"37","G0400130","2000","Arizona",4,40,"Maricopa County",13,130,"Maricopa County",3072149,2981954,90195,45358
+"38","G0400150","2000","Arizona",4,40,"Mohave County",15,150,"Mohave County",155032,116801,38231,31521
+"39","G0400170","2000","Arizona",4,40,"Navajo County",17,170,"Navajo County",97470,40296,57174,28569
+"40","G0400190","2000","Arizona",4,40,"Pima County",19,190,"Pima County",843746,772583,71163,36758
+"41","G0400210","2000","Arizona",4,40,"Pinal County",21,210,"Pinal County",179727,116228,63499,35856
+"42","G0400230","2000","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County",38381,26141,12240,29710
+"43","G0400250","2000","Arizona",4,40,"Yavapai County",25,250,"Yavapai County",167517,105007,62510,34901
+"44","G0400270","2000","Arizona",4,40,"Yuma County",27,270,"Yuma County",160026,139091,20935,32182
+"45","G0400010","2010","Arizona",4,40,"Apache County",1,10,"Apache County",71518,18551,52967,NA
+"46","G0400030","2010","Arizona",4,40,"Cochise County",3,30,"Cochise County",131346,83666,47680,NA
+"47","G0400050","2010","Arizona",4,40,"Coconino County",5,50,"Coconino County",134421,92124,42297,NA
+"48","G0400070","2010","Arizona",4,40,"Gila County",7,70,"Gila County",53597,31589,22008,NA
+"49","G0400090","2010","Arizona",4,40,"Graham County",9,90,"Graham County",37220,19936,17284,NA
+"50","G0400110","2010","Arizona",4,40,"Greenlee County",11,110,"Greenlee County",8437,4508,3929,NA
+"51","G0400120","2010","Arizona",4,40,"La Paz County",12,120,"La Paz County",20489,8948,11541,NA
+"52","G0400130","2010","Arizona",4,40,"Maricopa County",13,130,"Maricopa County",3817117,3726888,90229,NA
+"53","G0400150","2010","Arizona",4,40,"Mohave County",15,150,"Mohave County",200186,154216,45970,NA
+"54","G0400170","2010","Arizona",4,40,"Navajo County",17,170,"Navajo County",107449,49278,58171,NA
+"55","G0400190","2010","Arizona",4,40,"Pima County",19,190,"Pima County",980263,906513,73750,NA
+"56","G0400210","2010","Arizona",4,40,"Pinal County",21,210,"Pinal County",375770,293459,82311,NA
+"57","G0400230","2010","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County",47420,34672,12748,NA
+"58","G0400250","2010","Arizona",4,40,"Yavapai County",25,250,"Yavapai County",211033,140976,70057,NA
+"59","G0400270","2010","Arizona",4,40,"Yuma County",27,270,"Yuma County",195751,175335,20416,NA
+"60","G0400010","2006-2010","Arizona",4,40,"Apache County",1,10,"Apache County",NA,NA,NA,30184
+"61","G0400030","2006-2010","Arizona",4,40,"Cochise County",3,30,"Cochise County",NA,NA,NA,44876
+"62","G0400050","2006-2010","Arizona",4,40,"Coconino County",5,50,"Coconino County",NA,NA,NA,49510
+"63","G0400070","2006-2010","Arizona",4,40,"Gila County",7,70,"Gila County",NA,NA,NA,37580
+"64","G0400090","2006-2010","Arizona",4,40,"Graham County",9,90,"Graham County",NA,NA,NA,41683
+"65","G0400110","2006-2010","Arizona",4,40,"Greenlee County",11,110,"Greenlee County",NA,NA,NA,48696
+"66","G0400120","2006-2010","Arizona",4,40,"La Paz County",12,120,"La Paz County",NA,NA,NA,32147
+"67","G0400130","2006-2010","Arizona",4,40,"Maricopa County",13,130,"Maricopa County",NA,NA,NA,55054
+"68","G0400150","2006-2010","Arizona",4,40,"Mohave County",15,150,"Mohave County",NA,NA,NA,39785
+"69","G0400170","2006-2010","Arizona",4,40,"Navajo County",17,170,"Navajo County",NA,NA,NA,39774
+"70","G0400190","2006-2010","Arizona",4,40,"Pima County",19,190,"Pima County",NA,NA,NA,45521
+"71","G0400210","2006-2010","Arizona",4,40,"Pinal County",21,210,"Pinal County",NA,NA,NA,51310
+"72","G0400230","2006-2010","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County",NA,NA,NA,36519
+"73","G0400250","2006-2010","Arizona",4,40,"Yavapai County",25,250,"Yavapai County",NA,NA,NA,43290
+"74","G0400270","2006-2010","Arizona",4,40,"Yuma County",27,270,"Yuma County",NA,NA,NA,40340
+"75","G0400010","2007-2011","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,31011
+"76","G0400030","2007-2011","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,45906
+"77","G0400050","2007-2011","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,49615
+"78","G0400070","2007-2011","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,37905
+"79","G0400090","2007-2011","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,43083
+"80","G0400110","2007-2011","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,49390
+"81","G0400120","2007-2011","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,32220
+"82","G0400130","2007-2011","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,55099
+"83","G0400150","2007-2011","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,40573
+"84","G0400170","2007-2011","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,38975
+"85","G0400190","2007-2011","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,46341
+"86","G0400210","2007-2011","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,51212
+"87","G0400230","2007-2011","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,38092
+"88","G0400250","2007-2011","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,44084
+"89","G0400270","2007-2011","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,41441
+"90","G0400010","2008-2012","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,31615
+"91","G0400030","2008-2012","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,45505
+"92","G0400050","2008-2012","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,48320
+"93","G0400070","2008-2012","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,38504
+"94","G0400090","2008-2012","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,44421
+"95","G0400110","2008-2012","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,49692
+"96","G0400120","2008-2012","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,35093
+"97","G0400130","2008-2012","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,54385
+"98","G0400150","2008-2012","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,39383
+"99","G0400170","2008-2012","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,37683
+"100","G0400190","2008-2012","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,46443
+"101","G0400210","2008-2012","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,50164
+"102","G0400230","2008-2012","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,37692
+"103","G0400250","2008-2012","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,43652
+"104","G0400270","2008-2012","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,41156
+"105","G0400010","2009-2013","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,31476
+"106","G0400030","2009-2013","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,45755
+"107","G0400050","2009-2013","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,49555
+"108","G0400070","2009-2013","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,39954
+"109","G0400090","2009-2013","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,44943
+"110","G0400110","2009-2013","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,47992
+"111","G0400120","2009-2013","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,35776
+"112","G0400130","2009-2013","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,53596
+"113","G0400150","2009-2013","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,39200
+"114","G0400170","2009-2013","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,36927
+"115","G0400190","2009-2013","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,45841
+"116","G0400210","2009-2013","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,50027
+"117","G0400230","2009-2013","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,37745
+"118","G0400250","2009-2013","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,42987
+"119","G0400270","2009-2013","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,41595
+"120","G0400010","2010-2014","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,32396
+"121","G0400030","2010-2014","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,45974
+"122","G0400050","2010-2014","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,48540
+"123","G0400070","2010-2014","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,40042
+"124","G0400090","2010-2014","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,46965
+"125","G0400110","2010-2014","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,50818
+"126","G0400120","2010-2014","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,37009
+"127","G0400130","2010-2014","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,53689
+"128","G0400150","2010-2014","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,38456
+"129","G0400170","2010-2014","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,36591
+"130","G0400190","2010-2014","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,46233
+"131","G0400210","2010-2014","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,50248
+"132","G0400230","2010-2014","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,38802
+"133","G0400250","2010-2014","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,44000
+"134","G0400270","2010-2014","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,41380
+"135","G0400010","2011-2015","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,31757
+"136","G0400030","2011-2015","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,45075
+"137","G0400050","2011-2015","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,50234
+"138","G0400070","2011-2015","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,39751
+"139","G0400090","2011-2015","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,45964
+"140","G0400110","2011-2015","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,51628
+"141","G0400120","2011-2015","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,34466
+"142","G0400130","2011-2015","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,54229
+"143","G0400150","2011-2015","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,38488
+"144","G0400170","2011-2015","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,35921
+"145","G0400190","2011-2015","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,46162
+"146","G0400210","2011-2015","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,49477
+"147","G0400230","2011-2015","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,40140
+"148","G0400250","2011-2015","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,44748
+"149","G0400270","2011-2015","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,40743
+"150","G0400010","2012-2016","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,32460
+"151","G0400030","2012-2016","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,45383
+"152","G0400050","2012-2016","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,51106
+"153","G0400070","2012-2016","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,40593
+"154","G0400090","2012-2016","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,47422
+"155","G0400110","2012-2016","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,51813
+"156","G0400120","2012-2016","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,36321
+"157","G0400130","2012-2016","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,55676
+"158","G0400150","2012-2016","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,39856
+"159","G0400170","2012-2016","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,36868
+"160","G0400190","2012-2016","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,46764
+"161","G0400210","2012-2016","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,51190
+"162","G0400230","2012-2016","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,38941
+"163","G0400250","2012-2016","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,46638
+"164","G0400270","2012-2016","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,41467
+"165","G0400010","2013-2017","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,32360
+"166","G0400030","2013-2017","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,47847
+"167","G0400050","2013-2017","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,53523
+"168","G0400070","2013-2017","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,41179
+"169","G0400090","2013-2017","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,48173
+"170","G0400110","2013-2017","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,56298
+"171","G0400120","2013-2017","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,36479
+"172","G0400130","2013-2017","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,58580
+"173","G0400150","2013-2017","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,41567
+"174","G0400170","2013-2017","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,38798
+"175","G0400190","2013-2017","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,48676
+"176","G0400210","2013-2017","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,52628
+"177","G0400230","2013-2017","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,39630
+"178","G0400250","2013-2017","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,48259
+"179","G0400270","2013-2017","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,43253
+"180","G0400010","2014-2018","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,32963
+"181","G0400030","2014-2018","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,48649
+"182","G0400050","2014-2018","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,57616
+"183","G0400070","2014-2018","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,42092
+"184","G0400090","2014-2018","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,51352
+"185","G0400110","2014-2018","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,60962
+"186","G0400120","2014-2018","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,33333
+"187","G0400130","2014-2018","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,61606
+"188","G0400150","2014-2018","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,43266
+"189","G0400170","2014-2018","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,40054
+"190","G0400190","2014-2018","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,51037
+"191","G0400210","2014-2018","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,55550
+"192","G0400230","2014-2018","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,40467
+"193","G0400250","2014-2018","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,50180
+"194","G0400270","2014-2018","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,44058
+"195","G0400010","2015-2019","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,32508
+"196","G0400030","2015-2019","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,49260
+"197","G0400050","2015-2019","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,59460
+"198","G0400070","2015-2019","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,43524
+"199","G0400090","2015-2019","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,51353
+"200","G0400110","2015-2019","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,63473
+"201","G0400120","2015-2019","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,34643
+"202","G0400130","2015-2019","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,64468
+"203","G0400150","2015-2019","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,45587
+"204","G0400170","2015-2019","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,40067
+"205","G0400190","2015-2019","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,53379
+"206","G0400210","2015-2019","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,58174
+"207","G0400230","2015-2019","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,41259
+"208","G0400250","2015-2019","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,52451
+"209","G0400270","2015-2019","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,45243
+"210","G0400010","2020","Arizona",4,40,"Apache County",1,10,"Apache County",66021,NA,NA,NA
+"211","G0400030","2020","Arizona",4,40,"Cochise County",3,30,"Cochise County",125447,NA,NA,NA
+"212","G0400050","2020","Arizona",4,40,"Coconino County",5,50,"Coconino County",145101,NA,NA,NA
+"213","G0400070","2020","Arizona",4,40,"Gila County",7,70,"Gila County",53272,NA,NA,NA
+"214","G0400090","2020","Arizona",4,40,"Graham County",9,90,"Graham County",38533,NA,NA,NA
+"215","G0400110","2020","Arizona",4,40,"Greenlee County",11,110,"Greenlee County",9563,NA,NA,NA
+"216","G0400120","2020","Arizona",4,40,"La Paz County",12,120,"La Paz County",16557,NA,NA,NA
+"217","G0400130","2020","Arizona",4,40,"Maricopa County",13,130,"Maricopa County",4420568,NA,NA,NA
+"218","G0400150","2020","Arizona",4,40,"Mohave County",15,150,"Mohave County",213267,NA,NA,NA
+"219","G0400170","2020","Arizona",4,40,"Navajo County",17,170,"Navajo County",106717,NA,NA,NA
+"220","G0400190","2020","Arizona",4,40,"Pima County",19,190,"Pima County",1043433,NA,NA,NA
+"221","G0400210","2020","Arizona",4,40,"Pinal County",21,210,"Pinal County",425264,NA,NA,NA
+"222","G0400230","2020","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County",47669,NA,NA,NA
+"223","G0400250","2020","Arizona",4,40,"Yavapai County",25,250,"Yavapai County",236209,NA,NA,NA
+"224","G0400270","2020","Arizona",4,40,"Yuma County",27,270,"Yuma County",203881,NA,NA,NA
+"225","G0400010","2016-2020","Arizona",4,40,"Apache County",1,10,"Apache County",NA,NA,NA,33967
+"226","G0400030","2016-2020","Arizona",4,40,"Cochise County",3,30,"Cochise County",NA,NA,NA,51505
+"227","G0400050","2016-2020","Arizona",4,40,"Coconino County",5,50,"Coconino County",NA,NA,NA,59000
+"228","G0400070","2016-2020","Arizona",4,40,"Gila County",7,70,"Gila County",NA,NA,NA,46907
+"229","G0400090","2016-2020","Arizona",4,40,"Graham County",9,90,"Graham County",NA,NA,NA,55693
+"230","G0400110","2016-2020","Arizona",4,40,"Greenlee County",11,110,"Greenlee County",NA,NA,NA,66368
+"231","G0400120","2016-2020","Arizona",4,40,"La Paz County",12,120,"La Paz County",NA,NA,NA,34956
+"232","G0400130","2016-2020","Arizona",4,40,"Maricopa County",13,130,"Maricopa County",NA,NA,NA,67799
+"233","G0400150","2016-2020","Arizona",4,40,"Mohave County",15,150,"Mohave County",NA,NA,NA,47686
+"234","G0400170","2016-2020","Arizona",4,40,"Navajo County",17,170,"Navajo County",NA,NA,NA,43140
+"235","G0400190","2016-2020","Arizona",4,40,"Pima County",19,190,"Pima County",NA,NA,NA,55023
+"236","G0400210","2016-2020","Arizona",4,40,"Pinal County",21,210,"Pinal County",NA,NA,NA,60968
+"237","G0400230","2016-2020","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County",NA,NA,NA,41424
+"238","G0400250","2016-2020","Arizona",4,40,"Yavapai County",25,250,"Yavapai County",NA,NA,NA,53329
+"239","G0400270","2016-2020","Arizona",4,40,"Yuma County",27,270,"Yuma County",NA,NA,NA,48790
+"240","G0400010","2017-2021","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,34788
+"241","G0400030","2017-2021","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,55077
+"242","G0400050","2017-2021","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,61888
+"243","G0400070","2017-2021","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,51406
+"244","G0400090","2017-2021","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,57105
+"245","G0400110","2017-2021","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,67723
+"246","G0400120","2017-2021","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,39732
+"247","G0400130","2017-2021","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,72944
+"248","G0400150","2017-2021","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,49738
+"249","G0400170","2017-2021","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,46126
+"250","G0400190","2017-2021","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,59215
+"251","G0400210","2017-2021","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,65488
+"252","G0400230","2017-2021","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,45089
+"253","G0400250","2017-2021","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,56170
+"254","G0400270","2017-2021","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,52563
+"255","G0400010","2018-2022","Arizona",4,40,"Apache County",1,10,"Apache County, Arizona",NA,NA,NA,37483
+"256","G0400030","2018-2022","Arizona",4,40,"Cochise County",3,30,"Cochise County, Arizona",NA,NA,NA,58421
+"257","G0400050","2018-2022","Arizona",4,40,"Coconino County",5,50,"Coconino County, Arizona",NA,NA,NA,67266
+"258","G0400070","2018-2022","Arizona",4,40,"Gila County",7,70,"Gila County, Arizona",NA,NA,NA,55242
+"259","G0400090","2018-2022","Arizona",4,40,"Graham County",9,90,"Graham County, Arizona",NA,NA,NA,64089
+"260","G0400110","2018-2022","Arizona",4,40,"Greenlee County",11,110,"Greenlee County, Arizona",NA,NA,NA,73756
+"261","G0400120","2018-2022","Arizona",4,40,"La Paz County",12,120,"La Paz County, Arizona",NA,NA,NA,46634
+"262","G0400130","2018-2022","Arizona",4,40,"Maricopa County",13,130,"Maricopa County, Arizona",NA,NA,NA,80675
+"263","G0400150","2018-2022","Arizona",4,40,"Mohave County",15,150,"Mohave County, Arizona",NA,NA,NA,53592
+"264","G0400170","2018-2022","Arizona",4,40,"Navajo County",17,170,"Navajo County, Arizona",NA,NA,NA,50335
+"265","G0400190","2018-2022","Arizona",4,40,"Pima County",19,190,"Pima County, Arizona",NA,NA,NA,64323
+"266","G0400210","2018-2022","Arizona",4,40,"Pinal County",21,210,"Pinal County, Arizona",NA,NA,NA,73313
+"267","G0400230","2018-2022","Arizona",4,40,"Santa Cruz County",23,230,"Santa Cruz County, Arizona",NA,NA,NA,51885
+"268","G0400250","2018-2022","Arizona",4,40,"Yavapai County",25,250,"Yavapai County, Arizona",NA,NA,NA,62430
+"269","G0400270","2018-2022","Arizona",4,40,"Yuma County",27,270,"Yuma County, Arizona",NA,NA,NA,56439

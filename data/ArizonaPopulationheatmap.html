@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://www.arcgis.com/apps/dashboards/e5583bc13b0d4948b349378b50c75d29 -->
+<html style="--vh: 1033px; --dashboard-ui-text-2-rgb: 191,191,191; --dashboard-ui-brand-rgb: 0,154,242; --dashboard-ui-foreground-1-rgb: 43,43,43; --dashboard-ui-danger-rgb: 254,88,62; --dashboard-ui-success-rgb: 54,218,67;" hydrated="" class="hydrated calcite-mode-dark" calcite-hydrated="" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style data-styles="">dashboard-info-window,dashboard-tab-zone{visibility:hidden}.hydrated{visibility:inherit}</style><style data-styles="">arcgis-charts-action-bar,arcgis-charts-bar-chart,arcgis-charts-bar-line-chart,arcgis-charts-box-plot,arcgis-charts-gauge,arcgis-charts-histogram,arcgis-charts-line-chart,arcgis-charts-pie-chart,arcgis-charts-scatter-plot{visibility:hidden}.hydrated{visibility:inherit}</style><style data-styles="">calcite-icon,calcite-list,calcite-list-item,calcite-list-item-group,calcite-value-list,calcite-value-list-item,calcite-block,calcite-block-section,calcite-input-date-picker,calcite-flow-item,calcite-navigation,calcite-navigation-user,calcite-navigation-logo,calcite-tip,calcite-tip-manager,calcite-tip-group,calcite-table,calcite-stepper,calcite-stepper-item,calcite-split-button,calcite-segmented-control,calcite-segmented-control-item,calcite-tile-select,calcite-tile-select-group,calcite-table-row,calcite-select,calcite-option,calcite-option-group,calcite-tree-item,calcite-tree,calcite-radio-button-group,calcite-rating,calcite-text-area,calcite-tile,calcite-accordion-item,calcite-accordion,calcite-shell,calcite-shell-center-row,calcite-shell-panel,calcite-tooltip,calcite-action,calcite-pick-list,calcite-pick-list-group,calcite-pick-list-item,calcite-input-time-picker,calcite-time-picker,calcite-menu-item,calcite-menu,calcite-dropdown-item,calcite-dropdown-group,calcite-dropdown,calcite-slider,calcite-graph,calcite-stack,calcite-switch,calcite-action-menu,calcite-action-group,calcite-action-bar,calcite-action-pad,calcite-input-time-zone,calcite-checkbox,calcite-card,calcite-fab,calcite-inline-editable,calcite-modal,calcite-alert,calcite-sheet,calcite-notice,calcite-chip-group,calcite-flow,calcite-meter,calcite-sortable-list,calcite-panel,calcite-avatar,calcite-link,calcite-pagination,calcite-radio-button,calcite-input-number,calcite-label,calcite-input,calcite-tab-title,calcite-tab,calcite-tab-nav,calcite-tabs,calcite-button,calcite-color-picker,calcite-color-picker-hex-input,calcite-color-picker-swatch,calcite-table-header,calcite-table-cell,calcite-handle,calcite-combobox-item-group,calcite-combobox,calcite-combobox-item,calcite-filter,calcite-input-text,calcite-chip,calcite-date-picker,calcite-date-picker-month,calcite-date-picker-month-header,calcite-date-picker-day,calcite-scrim,calcite-progress,calcite-input-message,calcite-loader,calcite-popover{visibility:hidden}[calcite-hydrated]{visibility:inherit}</style><style data-styles="">arcgis-arcade-editor,arcgis-arcade-api,arcgis-arcade-results,arcgis-arcade-suggestions,arcgis-arcade-variables,arcgis-code-editor{visibility:hidden}[hydrated]{visibility:inherit}</style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arizona Population</title>
+    <meta name="description" content="ArcGIS Dashboards">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="icon" href="https://www.arcgis.com/apps/dashboards/assets/images/arcgis-dashboards-16-57c7bdca757e2544acb67f661775b0ba.png" type="image/png">
+
+    
+<link href="./ArizonaPopulationheatmap_files/main.css" rel="stylesheet" type="text/css" data-theme="api-dark">
+<link href="./ArizonaPopulationheatmap_files/main(1).css" rel="stylesheet" type="text/css" data-theme="api-light">
+    <link rel="stylesheet" href="./ArizonaPopulationheatmap_files/vendor-268117728b3c4b36216918b1c17708cd.css">
+<link rel="stylesheet" href="./ArizonaPopulationheatmap_files/chunk.33167.3e37de54b9586224f4ba.css">
+    <link rel="stylesheet" href="./ArizonaPopulationheatmap_files/app-c9d50402400e5ba540e1273c4ebc1481.css">
+    <script src="./ArizonaPopulationheatmap_files/before-amd-c876bbabc07a117e73a6b5e74c4dd779.js"></script>
+  </head>
+
+  <body class="ember-application">
+    
+
+    
+    <script src="./ArizonaPopulationheatmap_files/vendor-6dc01ce07b24b8eb8e99125244af2681.js"></script>
+<script src="./ArizonaPopulationheatmap_files/chunk.33167.3e37de54b9586224f4ba.js"></script>
+<script src="./ArizonaPopulationheatmap_files/chunk.32143.70fcdd4185e869c01e0d.js"></script>
+    <script src="./ArizonaPopulationheatmap_files/nickel-576f2f52197ea997cf9221f9abad3fc1.js"></script>
+    <script src="./ArizonaPopulationheatmap_files/translations.js"></script>
+    
+  
+
+<div class="full-page-container bg-background">
+  <calcite-shell class="dashboard-page flex flex-col w-full h-full calcite-mode-light" calcite-hydrated=""><template shadowrootmode="open"><div><slot name="header"></slot></div><div class="main"><slot name="panel-start"></slot><div class="content"><slot name="panel-top"></slot><slot></slot><slot name="panel-bottom"></slot><slot name="center-row"></slot></div><slot name="panel-end"></slot></div><div class="footer" hidden=""><slot name="footer"></slot></div><div class="positioned-slot-wrapper"><div hidden=""><slot name="alerts"></slot></div><div hidden=""><slot name="modals"></slot></div><div hidden=""><slot name="sheets"></slot></div></div></template>
+  <div class="dashboard-page-header-container relative" slot="header">
+<!---->  </div>
+
+<!---->
+<!---->
+  <div class="dashboard-container shadow-2 relative calcite-mode-dark flex flex-auto flex-col overflow-hidden">
+    
+      <div class="panel-container flex flex-col top-panel-container no-margin flex-none">
+
+  <margin-container>
+<!---->
+    <full-container class="tabzone-highlight" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+        <header aria-label="Header" class="header-panel flex large">
+<!---->
+    <div class="flex-none self-center shrink overflow-hidden ms-4 flex items-baseline">
+      <h1 class="title pointer-events-none text-ellipsis mb-0 me-2">
+         
+      </h1>
+
+<!---->    </div>
+
+    <div class="selectors-container flex-auto min-w-0 flex justify-end">
+      <div class="selector-container row flex-auto">
+<!---->  <div class="category-selector-widget h-full">
+      <div class="dropdown w-full h-full">
+  
+        <button class="dropdown-toggle  selector-header w-full border-none h-full" aria-haspopup="true" title="Expand">
+    
+          <!----><div class="flex-auto min-w-0">
+  <div class="selector-title dashboard-text-color flex">
+    <span class="text-ellipsis" title="Zoom to county">
+      Zoom to county
+    </span>
+  </div>
+    <div class="font-light dashboard-secondary-text-color flex">
+      <span class="text-ellipsis" title="All counties">
+        All counties
+      </span>
+<!---->    </div>
+</div>
+
+        
+</button>
+        <!---->
+      
+</div>
+</div>
+</div>
+<!----></div>
+
+<!----></header>
+    
+  </dashboard-tab-zone>
+</full-container>
+
+<!---->  </margin-container>
+</div>
+
+<!---->
+
+    <div class="flex-auto flex relative overflow-hidden">
+<!---->
+        <div class="flex-auto relative overflow-hidden">
+          <div class="absolute w-full h-full margin-container">
+            <div class="dock-container">
+  <margin-container class="left top right bottom">
+    <full-container>
+        <div class="dock-element" style="left: 0px; top: 0px; width: 429.927px; height: 414.39px;">
+  <margin-container class="left right top bottom">
+    <full-container class="tabzone-highlight dock-container tabzone-highlighted" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+      <section aria-label="Map" class="widget flex flex-col h-full map-widget top-border">
+<!---->
+    <div class="flex-none widget-header">
+      <div class="caption">
+        <p>Phoenix Metropolitan Area</p>
+
+      </div>
+    </div>
+
+    <!---->
+
+    
+  <div class="widget-body flex-auto flex flex-col relative overflow-hidden">
+      <div class="map flex-auto esri-view esri-view-width-xsmall esri-view-width-less-than-small esri-view-width-less-than-medium esri-view-width-less-than-large esri-view-width-less-than-xlarge esri-view-height-xsmall esri-view-height-less-than-small esri-view-height-less-than-medium esri-view-height-less-than-large esri-view-height-less-than-xlarge esri-view-orientation-landscape"><div class="esri-view-root"><div class="esri-view-surface esri-view-surface--touch-none" role="application" tabindex="0" aria-label="To navigate with VoiceOver, use option + arrow keys. Alternatively, turn off Quick Nav mode (press the Left Arrow and Right Arrow keys at the same time), then use arrow keys for navigation."><canvas style="width: 420px; height: 372px; display: block;" width="840" height="744"></canvas></div><div class="esri-overlay-surface"><div style="visibility: hidden;"></div></div><div class="esri-ui" lang="en" style="inset: 0px;"><div class="esri-ui-inner-container esri-ui-corner-container" style="inset: 15px 15px 30px;"><div class="esri-ui-top-left esri-ui-corner"><div class="flex pointer-events-none map-toolbar-left esri-component">
+<!---->
+    <div>
+<!----></div>
+
+    <!---->
+  </div></div><div class="esri-ui-top-right esri-ui-corner"></div><div class="esri-ui-bottom-left esri-ui-corner"></div><div class="esri-ui-bottom-right esri-ui-corner"></div></div><div class="esri-ui-inner-container esri-ui-manual-container"><div class="esri-component esri-attribution esri-widget" dir="ltr"><div class="esri-attribution__sources esri-interactive" tabindex="0">City of Phoenix, Esri, TomTom, Garmin, SafeGraph, FAO, METI/NASA, USGS, Bureau of Land Management, EPA, NPS, USFWS</div><div class="esri-attribution__powered-by">Powered by <a class="esri-attribution__link" href="https://www.esri.com/" rel="noreferrer" target="_blank">Esri</a></div></div><div class="esri-component" role="presentation" style="display: none;"></div><div class="esri-component" style="display: none;"></div></div></div></div><div class="esri-view-user-storage"></div></div>
+
+        
+
+<!---->
+
+      <!---->
+  </div>
+
+
+<!---->
+<!----></section>
+    
+  </dashboard-tab-zone>
+</full-container>
+  </margin-container>
+</div>
+        <div class="dock-element" style="left: 0px; top: 414.39px; width: 429.927px; height: 545.61px;">
+  <margin-container class="left right top bottom">
+    <full-container class="tabzone-highlight dock-container tabzone-highlighted" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+      <section aria-label="Map" class="widget flex flex-col h-full map-widget top-border">
+<!---->
+    <div class="flex-none widget-header">
+      <div class="caption">
+        <p>Tucson Metropolitan Area</p>
+
+      </div>
+    </div>
+
+    <!---->
+
+    
+  <div class="widget-body flex-auto flex flex-col relative overflow-hidden">
+      <div class="map flex-auto esri-view esri-view-width-xsmall esri-view-width-less-than-small esri-view-width-less-than-medium esri-view-width-less-than-large esri-view-width-less-than-xlarge esri-view-height-xsmall esri-view-height-less-than-small esri-view-height-less-than-medium esri-view-height-less-than-large esri-view-height-less-than-xlarge esri-view-orientation-portrait"><div class="esri-view-root"><div class="esri-view-surface esri-view-surface--touch-none" role="application" tabindex="0" aria-label="To navigate with VoiceOver, use option + arrow keys. Alternatively, turn off Quick Nav mode (press the Left Arrow and Right Arrow keys at the same time), then use arrow keys for navigation."><canvas style="width: 420px; height: 504px; display: block;" width="840" height="1008"></canvas></div><div class="esri-overlay-surface"><div style="visibility: hidden;"></div></div><div class="esri-ui" lang="en" style="inset: 0px;"><div class="esri-ui-inner-container esri-ui-corner-container" style="inset: 15px 15px 30px;"><div class="esri-ui-top-left esri-ui-corner"><div class="flex pointer-events-none map-toolbar-left esri-component">
+<!---->
+    <div>
+<!----></div>
+
+    <!---->
+  </div></div><div class="esri-ui-top-right esri-ui-corner"></div><div class="esri-ui-bottom-left esri-ui-corner"></div><div class="esri-ui-bottom-right esri-ui-corner"></div></div><div class="esri-ui-inner-container esri-ui-manual-container"><div class="esri-component esri-attribution esri-widget" dir="ltr"><div class="esri-attribution__sources esri-interactive" tabindex="0">CONANP, Esri, TomTom, Garmin, Foursquare, SafeGraph, FAO, METI/NASA, USGS, Bureau of Land Management, EPA, NPS, USFWS</div><div class="esri-attribution__powered-by">Powered by <a class="esri-attribution__link" href="https://www.esri.com/" rel="noreferrer" target="_blank">Esri</a></div></div><div class="esri-component" role="presentation" style="display: none;"></div><div class="esri-component" style="display: none;"></div></div></div></div><div class="esri-view-user-storage"></div></div>
+
+        
+
+<!---->
+
+      <!---->
+  </div>
+
+
+<!---->
+<!----></section>
+    
+  </dashboard-tab-zone>
+</full-container>
+  </margin-container>
+</div>
+        <div class="dock-element" style="left: 429.927px; top: 0px; width: 987.098px; height: 960px;">
+  <margin-container class="left right top bottom">
+    <full-container class="tabzone-highlight dock-container tabzone-highlighted" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+      <section aria-label="Map" class="widget flex flex-col h-full map-widget">
+<!---->
+<!---->
+    <!---->
+
+    
+  <div class="widget-body flex-auto flex flex-col relative overflow-hidden">
+      <div class="map flex-auto esri-view esri-view-width-medium esri-view-width-greater-than-xsmall esri-view-width-greater-than-small esri-view-width-less-than-large esri-view-width-less-than-xlarge esri-view-height-medium esri-view-height-greater-than-xsmall esri-view-height-greater-than-small esri-view-height-less-than-large esri-view-height-less-than-xlarge esri-view-orientation-landscape"><div class="esri-view-root"><div class="esri-view-surface esri-view-surface--touch-none" role="application" tabindex="0" aria-label="To navigate with VoiceOver, use option + arrow keys. Alternatively, turn off Quick Nav mode (press the Left Arrow and Right Arrow keys at the same time), then use arrow keys for navigation." data-navigating="false"><canvas style="width: 977px; height: 950px; display: block;" width="1954" height="1900"></canvas></div><div class="esri-overlay-surface"><div style="visibility: hidden;"></div></div><div class="esri-ui" lang="en" style="inset: 0px;"><div class="esri-ui-inner-container esri-ui-corner-container" style="inset: 15px 15px 30px;"><div class="esri-ui-top-left esri-ui-corner"><div class="flex pointer-events-none map-toolbar-left esri-component">
+<!---->
+    <div>
+<!----></div>
+
+    <!---->
+  </div></div><div class="esri-ui-top-right esri-ui-corner"><div class="map-toolbar-right pointer-events-auto self-end flex esri-component">
+      <div class="flex items-center">
+<!---->        <calcite-action-pad expand-disabled="" scale="s" layout="vertical" overlay-positioning="absolute" calcite-hydrated=""><template shadowrootmode="open" shadowrootdelegatesfocus><div class="container"><slot></slot></div></template>
+          <calcite-action scale="s" title="Search" appearance="solid" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Search" aria-pressed="false" class="button" id="calcite-action-4f5b1726-3d9c-f5e1-d60a-6dee4c632554-button"><div aria-hidden="true" class="icon-container"><calcite-icon class="" aria-hidden="true" icon="search" scale="s" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M13.936 13.24L9.708 9.01a4.8 4.8 0 1 0-.69.69l4.228 4.228a.488.488 0 0 0 .69-.69zM6.002 9.8A3.8 3.8 0 1 1 8.69 8.686a3.778 3.778 0 0 1-2.687 1.112z"></path></svg></template></calcite-icon><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-4f5b1726-3d9c-f5e1-d60a-6dee4c632554-button" aria-live="polite" class="indicator-text" id="calcite-action-4f5b1726-3d9c-f5e1-d60a-6dee4c632554-indicator" role="region"></div></div></template>
+          </calcite-action>
+        </calcite-action-pad>
+      </div>
+
+      <calcite-action-pad class="ms-2" expand-disabled="" scale="s" layout="horizontal" overlay-positioning="absolute" calcite-hydrated=""><template shadowrootmode="open" shadowrootdelegatesfocus><div class="container"><slot></slot></div></template>
+          <calcite-action scale="s" title="Home" appearance="solid" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Home" aria-pressed="false" class="button" id="calcite-action-7cbef904-ccda-90ca-ca9f-58c9a8239286-button"><div aria-hidden="true" class="icon-container"><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-7cbef904-ccda-90ca-ca9f-58c9a8239286-button" aria-live="polite" class="indicator-text" id="calcite-action-7cbef904-ccda-90ca-ca9f-58c9a8239286-indicator" role="region"></div></div></template>
+            <calcite-icon flip-rtl="" scale="s" aria-hidden="true" icon="home" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M3 1v4.5L.5 8H2v7h5v-4h2v4h5V8h1.5L8 .5l-2 2V1zm5 .914l5 5V14h-3v-4H6v4H3V6.914l1-1V2h1v2.914z"></path></svg></template></calcite-icon>
+          </calcite-action>
+          <calcite-action scale="s" title="Legend" appearance="solid" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Legend" aria-pressed="false" class="button" id="calcite-action-13d49b91-97dc-51a4-f8d4-9695ead96ba2-button"><div aria-hidden="true" class="icon-container"><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-13d49b91-97dc-51a4-f8d4-9695ead96ba2-button" aria-live="polite" class="indicator-text" id="calcite-action-13d49b91-97dc-51a4-f8d4-9695ead96ba2-indicator" role="region"></div></div></template>
+            <calcite-icon flip-rtl="" scale="s" aria-hidden="true" icon="legend" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M1 6.5A1.5 1.5 0 1 1 2.5 8 1.502 1.502 0 0 1 1 6.5zM15 2H6v1h9zM6 7h9V6H6zm0 4h9v-1H6zm0 4h9v-1H6zm-3.51-2L.87 16h3.257zM4 4H1V1h3zM3 2H2v1h1zm1 10H1V9h3zm-1-2H2v1h1zm-.5-4a.5.5 0 1 0 .5.5.5.5 0 0 0-.5-.5z"></path></svg></template></calcite-icon>
+          </calcite-action>
+          <calcite-action scale="s" title="Layers" appearance="solid" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Layers" aria-pressed="false" class="button" id="calcite-action-0a7ca39a-f443-344f-3b0d-56d4256aa99a-button"><div aria-hidden="true" class="icon-container"><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-0a7ca39a-f443-344f-3b0d-56d4256aa99a-button" aria-live="polite" class="indicator-text" id="calcite-action-0a7ca39a-f443-344f-3b0d-56d4256aa99a-indicator" role="region"></div></div></template>
+            <calcite-icon flip-rtl="" scale="s" aria-hidden="true" icon="layers" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M8.023 1.023l-8 4.5 8 4.5 8-4.5zm-5.96 4.5l5.96-3.352 5.96 3.352-5.96 3.353zm13.96 3l-8 4.5-8-4.5 1.02-.573 6.98 3.926 6.98-3.926zm-8 6.353l6.98-3.926 1.02.573-7.914 4.452a.175.175 0 0 1-.171 0L.023 11.523l1.02-.573z"></path></svg></template></calcite-icon>
+          </calcite-action>
+          <calcite-action scale="s" title="Basemaps" appearance="solid" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Basemaps" aria-pressed="false" class="button" id="calcite-action-f856191b-29b3-a776-d302-113b64912b0b-button"><div aria-hidden="true" class="icon-container"><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-f856191b-29b3-a776-d302-113b64912b0b-button" aria-live="polite" class="indicator-text" id="calcite-action-f856191b-29b3-a776-d302-113b64912b0b-indicator" role="region"></div></div></template>
+            <calcite-icon flip-rtl="" scale="s" aria-hidden="true" icon="basemap" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M16 3V0H9v7h7zm-1-2v1h-3V1zm-4 0v2h2v1h-3V1zm-1 5V5h4V3h1v3zM7 0H0v7h7zM6 4h-.33A2.674 2.674 0 0 1 3 1.33V1h3zM1 6V5h.561A.44.44 0 0 1 2 5.439V6zm2 0v-.561A1.44 1.44 0 0 0 1.561 4H1V1h1v.33A3.675 3.675 0 0 0 5.67 5H6v1zm13 3H9v7h7zm-6 6v-3h3v1h-1v1h1v1zm5 0h-1v-3h1zm0-4h-5v-1h5zM7 9H0v7h7zm-1 1v3.09a8.93 8.93 0 0 0-.314.057 2.863 2.863 0 0 1-.051-.12 3.112 3.112 0 0 0-.653-1.06c-.873-.872-1.18-1.093-1.977-1.093A3.301 3.301 0 0 0 1 12.024V10zm-5 5v-1.432l.11-.149a3.727 3.727 0 0 1 1.895-1.545c.397 0 .47 0 1.27.8a2.209 2.209 0 0 1 .438.742c.112.265.328.78.807.78a.816.816 0 0 0 .245-.041c.013-.005.079-.021.235-.05V15z"></path></svg></template></calcite-icon>
+          </calcite-action>
+      </calcite-action-pad>
+  </div><div class="info-panel flex flex-col pointer-events-auto hidden">
+<!---->      </div></div><div class="esri-ui-bottom-left esri-ui-corner"></div><div class="esri-ui-bottom-right esri-ui-corner"><div class="esri-component esri-zoom esri-widget"><calcite-button class="esri-widget--button" title="Zoom in" alignment="center" appearance="solid" kind="neutral" icon-start="plus" scale="m" type="button" width="auto" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-label="Zoom in" aria-live="polite" class="button-padding--shrunk icon-end-empty" type="button"><calcite-icon class="icon icon--start" aria-hidden="true" icon="plus" scale="s" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M9 4v4h4v1H9v4H8V9H4V8h4V4z"></path></svg></template></calcite-icon></button></div></template></calcite-button><calcite-button class="esri-widget--button" title="Zoom out" alignment="center" appearance="solid" kind="neutral" icon-start="minus" scale="m" type="button" width="auto" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-label="Zoom out" aria-live="polite" class="button-padding--shrunk icon-end-empty" type="button"><calcite-icon class="icon icon--start" aria-hidden="true" icon="minus" scale="s" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M13 8v1H3V8z"></path></svg></template></calcite-icon></button></div></template></calcite-button></div></div></div><div class="esri-ui-inner-container esri-ui-manual-container"><div class="esri-component esri-attribution esri-widget" dir="ltr"><div class="esri-attribution__sources">Esri, TomTom, Garmin, FAO, NOAA, USGS, Bureau of Land Management, EPA, NPS, USFWS</div><div class="esri-attribution__powered-by">Powered by <a class="esri-attribution__link" href="https://www.esri.com/" rel="noreferrer" target="_blank">Esri</a></div></div><div class="esri-component" role="presentation" data-layer-id="" data-layer-title="" style="display: none;"></div><div class="esri-component" style="left: 719.435px; top: 30.0887px; display: none;"></div></div></div></div><div class="esri-view-user-storage"></div></div>
+
+        
+
+<!---->
+
+        
+
+<!---->
+      
+
+  </div>
+
+
+<!---->
+<!----></section>
+    
+  </dashboard-tab-zone>
+</full-container>
+  </margin-container>
+</div>
+        <div class="dock-element" style="left: 1417.02px; top: 0px; width: 366.975px; height: 522.561px;">
+  <margin-container class="left right top">
+    <full-container class="tabzone-highlight dock-container tabzone-highlighted" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+      <section aria-label="Rich text" class="widget flex flex-col h-full rich-text-widget">
+<!---->
+<!---->
+    <!---->
+
+    
+  <div class="widget-body flex-auto block external-html p-1.5 ck-content overflow-y-auto overflow-x-hidden">
+    <h2 style="text-align:center">2018 Arizona Population Density</h2>
+
+<p style="text-align:center"><img alt="Arizona State Flag" src="./ArizonaPopulationheatmap_files/SNFALL-2.jpg" style="height:133px; width:200px"></p>
+
+<p>This&nbsp;dashboard&nbsp;shows Arizona's 2018&nbsp;population density in people per sq. km. Visual trends show that Arizona's population is largely concentrated in large metropolitan areas, whereas&nbsp;rural block groups tend to have very low population density, as low as 2 people per square kilometer.</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Usage notes:</strong></u></p>
+
+<ul>
+	<li><strong>Use&nbsp;the county filter above to zoom and pan to a specific county.&nbsp;</strong></li>
+	<li><strong>Click on a county to see a population breakdown pop-up.&nbsp;</strong></li>
+	<li><strong>Use the layers button at the top right to see detailed race density maps.</strong></li>
+</ul>
+
+<p><strong><u>Data source:</u>&nbsp;</strong>2018 US Census Bureau TIGER/Line data, 2018 American Community Survey</p>
+
+  </div>
+
+
+<!---->
+<!----></section>
+    
+  </dashboard-tab-zone>
+</full-container>
+  </margin-container>
+</div>
+        <div class="dock-element" style="left: 1417.02px; top: 0px; width: 366.975px; height: 522.561px;" hidden="">
+  <margin-container class="left right top">
+    <full-container class="tabzone-highlight dock-container tabzone-highlighted" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+      <section aria-label="Details" class="widget flex flex-col h-full details-widget">
+        <div class="collection-pagination mx-1 text-center flex justify-center">
+      <div class="flex-none">
+        <calcite-action class="dashboard-themed-action" appearance="transparent" scale="s" title="Previous feature" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Previous feature" aria-pressed="false" class="button" id="calcite-action-5d7134ff-a9d4-cb4c-9464-934d31f9bb26-button"><div aria-hidden="true" class="icon-container"><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-5d7134ff-a9d4-cb4c-9464-934d31f9bb26-button" aria-live="polite" class="indicator-text" id="calcite-action-5d7134ff-a9d4-cb4c-9464-934d31f9bb26-indicator" role="region"></div></div></template>
+          <calcite-icon icon="caret-left" scale="s" flip-rtl="" aria-hidden="true" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M10 13.1L4.9 8 10 2.9z"></path></svg></template></calcite-icon>
+        </calcite-action>
+      </div>
+      <div class="flex-none btn-label self-center">
+        1 of 15
+      </div>
+      <div class="flex-none">
+        <calcite-action class="dashboard-themed-action" appearance="transparent" scale="s" title="Next feature" calcite-hydrated=""><template shadowrootmode="open"><div class="interaction-container"><button aria-busy="false" aria-disabled="false" aria-label="Next feature" aria-pressed="false" class="button" id="calcite-action-eb43cacc-b496-5ded-2b12-6db5adf8c952-button"><div aria-hidden="true" class="icon-container"><div class="slot-container"><slot></slot></div></div></button><slot name="tooltip"></slot><div aria-labelledby="calcite-action-eb43cacc-b496-5ded-2b12-6db5adf8c952-button" aria-live="polite" class="indicator-text" id="calcite-action-eb43cacc-b496-5ded-2b12-6db5adf8c952-indicator" role="region"></div></div></template>
+          <calcite-icon icon="caret-right" scale="s" flip-rtl="" aria-hidden="true" calcite-hydrated=""><template shadowrootmode="open"><svg aria-hidden="true" class="svg" fill="currentColor" height="100%" viewBox="0 0 16 16" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="M6 2.9L11.1 8 6 13.1z"></path></svg></template></calcite-icon>
+        </calcite-action>
+      </div>
+    </div>
+
+
+<!---->
+    <!---->
+
+    
+  <div class="widget-body flex-auto flex flex-col overflow-y-auto overflow-x-hidden">
+    <div class="feature-widget esri-feature esri-widget"><div class="esri-feature__size-container"><h2 aria-level="2" class="esri-widget__heading esri-feature__title" role="heading">Maricopa County</h2><div class="esri-feature__main-container"><div class="esri-feature__content-node"><div class="esri-feature__content-element esri-feature__text"><div class="esri-feature-content"><div><b><font size="3">&nbsp;Total Population:&nbsp;4,253,913</font></b><br><br><u>Race variables:</u><br>White population:&nbsp;77.6%<br>Black population:&nbsp;5.5%<br>Native American population:&nbsp;1.9%<br>Asian population:&nbsp;4.2%<br>Other race population:&nbsp;&nbsp;7.0%<br><br><u>Ethnicity:</u><br>Hispanic population:&nbsp;30.8%</div></div></div></div></div></div></div>
+  </div>
+
+
+<!---->
+<!----></section>
+    
+  </dashboard-tab-zone>
+</full-container>
+  </margin-container>
+</div>
+        <div class="dock-element" style="left: 1417.02px; top: 560.561px; width: 366.975px; height: 399.439px;">
+  <margin-container class="left right top bottom">
+    <full-container class="tabzone-highlight dock-container tabzone-highlighted" tabindex="0">
+  <dashboard-tab-zone class="h-full hydrated" tabindex="-1" disabled=""><template shadowrootmode="open"><slot></slot></template>
+    
+      <section aria-label="Pie chart" class="widget flex flex-col h-full pie-chart-widget top-border">
+<!---->
+    <div class="flex-none widget-header">
+      <div class="caption">
+        <h3 style="text-align:center">Population Share by County</h3>
+
+      </div>
+    </div>
+
+    <!---->
+
+    
+  <div class="widget-body flex-auto flex flex-col overflow-hidden relative">
+<!---->
+      
+  <arcgis-charts-pie-chart nodataoptions="[object Object]" hide-loader-animation="" class="hydrated" action-mode="none" refresh-on-layer-filter-change=""><template shadowrootmode="open"><slot name="action-bar"></slot><div class="pieSeries show"><div style="width: 100%; height: 100%; position: static; left: 0.0234375px; top: -0.351563px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="group" style="width: 100%; height: 100%; overflow: visible;"><defs><clippath id="id-40"><rect width="357" height="342"></rect></clippath><filter id="filter-id-44" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><fegaussianblur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></fegaussianblur><feoffset result="offsetBlur" dx="1" dy="1"></feoffset><feflood flood-color="#000000" flood-opacity="0.5"></feflood><fecomposite in2="offsetBlur" operator="in"></fecomposite><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter><clippath id="id-140"></clippath><filter id="filter-id-161" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><fegaussianblur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></fegaussianblur><feoffset result="offsetBlur" dx="1" dy="1"></feoffset><feflood flood-color="#000000" flood-opacity="0.5"></feflood><fecomposite in2="offsetBlur" operator="in"></fecomposite><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter><clippath id="id-806"><rect width="0" height="328" transform="translate(-10,0)"></rect></clippath><clippath id="id-807"><rect width="0" height="328" transform="translate(-10,-41)"></rect></clippath><clippath id="id-808"><rect width="0" height="328" transform="translate(-10,-82)"></rect></clippath><clippath id="id-809"><rect width="0" height="328" transform="translate(-10,-123)"></rect></clippath><clippath id="id-810"><rect width="0" height="328" transform="translate(-10,-164)"></rect></clippath><clippath id="id-811"><rect width="0" height="328" transform="translate(-10,-205)"></rect></clippath><clippath id="id-812"><rect width="0" height="328" transform="translate(-10,-246)"></rect></clippath><clippath id="id-813"><rect width="0" height="328" transform="translate(-10,-287)"></rect></clippath></defs><g><g fill="#ffffff" fill-opacity="0"><rect width="357" height="342"></rect></g><g><g role="region" clip-path="url(&quot;#id-40&quot;)" opacity="1" aria-label="Chart" id="id-39"><g fill="#2b2b2b"><rect width="357" height="342"></rect></g><g transform="translate(7,7)"><g display="none"><g><g fill="#000000" display="none"><g display="none"></g></g><g fill="#000000" display="none"><g display="none"></g></g></g></g><g><g><g><g transform="translate(0,15)"><g transform="translate(171.5,156.5)"><g><g role="group" aria-label="Series" style="cursor: default;"><g><g clip-path="url(&quot;#id-140&quot;)"><g></g></g><g></g><g><g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-202" fill="#ef6a1d" stroke="rgba(239,106,29,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M33.2568,8.9111  L60.467,16.2021  a62.6,62.6,0,0,1,-4.0929,11.0143 L31.0057,14.969  a34.43,34.43,0,0,0,2.2511,-6.0578 L33.2568,8.9111 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-232" fill="#b1260b" stroke="rgba(177,38,11,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M31.0057,14.969  L56.374,27.2163  a62.6,62.6,0,0,1,-14.0996,18.9532 L23.251,25.3933  a34.43,34.43,0,0,0,7.7548,-10.4243 L31.0057,14.969 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-262" fill="#ffb454" stroke="rgba(255,180,84,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M23.251,25.3933  L42.2745,46.1696  a62.6,62.6,0,0,1,-100.2123,-22.4637 a62.6,62.6,0,0,1,55.7241,-86.2667 L-1.2176,-34.4085  a34.43,34.43,0,0,0,-30.6483,47.4467 a34.43,34.43,0,0,0,55.1168,12.355 L23.251,25.3933 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-292" fill="#910000" stroke="rgba(145,0,0,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M-1.2176,-34.4085  L-2.2137,-62.5608  a62.6,62.6,0,0,1,50.7382,23.0117 L26.6885,-21.752  a34.43,34.43,0,0,0,-27.906,-12.6564 L-1.2176,-34.4085 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-322" fill="#c0370f" stroke="rgba(192,55,15,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M26.6885,-21.752  L48.5245,-39.5491  a62.6,62.6,0,0,1,4.6126,6.4552 L29.2254,-18.2016  a34.43,34.43,0,0,0,-2.537,-3.5504 L26.6885,-21.752 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-352" fill="#ffda74" stroke="rgba(255,218,116,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M29.2254,-18.2016  L53.1371,-33.0939  a62.6,62.6,0,0,1,5.2122,10.4197 L32.0921,-12.4708  a34.43,34.43,0,0,0,-2.8667,-5.7308 L29.2254,-18.2016 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-382" fill="#e05919" stroke="rgba(224,89,25,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M32.0921,-12.4708  L58.3493,-22.6742  a62.6,62.6,0,0,1,3.3751,12.2409 L33.9484,-5.7383  a34.43,34.43,0,0,0,-1.8563,-6.7325 L32.0921,-12.4708 "></path></g><g></g></g></g><g stroke-opacity="1" role="figure" focusable="true" tabindex="0" id="id-412" fill="#d6d6d6" stroke="rgba(214,214,214,0)" fill-opacity="1" stroke-dasharray="none" stroke-linecap="round" stroke-width="1"><g><g><path d=" M33.9484,-5.7383  L61.7244,-10.4332  a62.6,62.6,0,0,1,-1.2575,26.6353 L33.2568,8.9111  a34.43,34.43,0,0,0,0.6916,-14.6494 L33.9484,-5.7383 "></path></g><g></g></g></g></g></g><g><g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="58.679490768200004,21.80544343298,82.6,81.311,88.6,81.311"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="50.22636643094,37.36404843458,82.6,105.311,88.6,105.311"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="-57.93782643214,23.70586991428,-82.6,33.552,-88.6,33.552"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="25.85644862478,-57.010560989940004,82.6,-80.689,88.6,-80.689"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="50.93316792556001,-36.39467550928,82.6,-49.689,88.6,-49.689"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="55.98614429154,-28.005564579860003,82.6,-11.689,88.6,-11.689"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="60.34804673682,-16.63950884756,82.6,26.311,88.6,26.311"></polyline></g><g fill-opacity="0" stroke-opacity="1" stroke="rgba(159,159,159,0.5)" stroke-width="1" stroke-dasharray="none" stroke-linecap="square"><polyline points="62.53035120244,2.9521481791600004,82.6,57.311,88.6,57.311"></polyline></g></g></g><g><g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="YUMA 207.8k" transform="translate(88.6,81.311)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-12)"><rect width="78" height="24"></rect></g><g transform="translate(5,-7)" style="user-select: none;"><foreignobject width="69" height="14"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">YUMA 207.8k</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="PINAL 419.7k" transform="translate(88.6,105.311)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-12)"><rect width="77" height="24"></rect></g><g transform="translate(5,-7)" style="user-select: none;"><foreignobject width="68" height="14"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">PINAL 419.7k</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="MARICOPA 4.3M" transform="translate(-88.6,33.552)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(-85,-19)"><rect width="85" height="38"></rect></g><g transform="translate(-80,-14)" style="user-select: none;"><foreignobject width="76" height="28"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">MARICOPA 4.3M</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="PIMA 1M" transform="translate(88.6,-80.689)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-12)"><rect width="55" height="24"></rect></g><g transform="translate(5,-7)" style="user-select: none;"><foreignobject width="46" height="14"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">PIMA 1M</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="COCONINO 140.2k" transform="translate(88.6,-49.689)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-19)"><rect width="85" height="38"></rect></g><g transform="translate(5,-14)" style="user-select: none;"><foreignobject width="76" height="28"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">COCONINO 140.2k</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="MOHAVE 206.1k" transform="translate(88.6,-11.689)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-19)"><rect width="85" height="38"></rect></g><g transform="translate(5,-14)" style="user-select: none;"><foreignobject width="76" height="28"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">MOHAVE 206.1k</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="YAVAPAI 224.6k" transform="translate(88.6,26.311)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-19)"><rect width="85" height="38"></rect></g><g transform="translate(5,-14)" style="user-select: none;"><foreignobject width="76" height="28"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">YAVAPAI 224.6k</p></div></foreignobject></g></g><g fill="#ffffff" font-family="inherit" font-weight="normal" font-size="11" text-decoration="none" aria-label="Other 474.6k" transform="translate(88.6,57.311)"><g fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1" transform="translate(0,-12)"><rect width="76" height="24"></rect></g><g transform="translate(5,-7)" style="user-select: none;"><foreignobject width="67" height="14"><div style="overflow-wrap: break-word; color: rgb(255, 255, 255); display: block;"><p style="margin:0; word-break:break-word;">Other 474.6k</p></div></foreignobject></g></g></g></g></g></g></g></g><g transform="translate(178.5,171)"><g><g><g></g></g></g></g></g></g><g role="group" visibility="hidden" aria-label="Legend" transform="translate(353,10)"><g><g role="scrollbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="96" aria-valuetext="From 96% to 100%" transform="translate(-17,0)" aria-labelledby="id-133-title" aria-orientation="vertical" aria-controls="id-39" visibility="hidden"><g fill="#f3f3f3" fill-opacity="0.5"><path d="M6,0 L6,0 a6,6 0 0 1 6,6 L12,322 a6,6 0 0 1 -6,6 L6,328 a6,6 0 0 1 -6,-6 L0,6 a6,6 0 0 1 6,-6 Z"></path></g><g><g role="slider" focusable="true" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-live="polite" aria-labelledby="id-130-title" aria-valuenow="96" aria-valuetext="From 96% to 100%" transform="translate(6,0)" style="touch-action: none; user-select: none; -webkit-user-drag: none; cursor: -webkit-grab;" aria-describedby="id-130-description"><g fill="#d9d9d9" stroke="#ffffff" fill-opacity="1" stroke-opacity="1" transform="translate(-6,0)"><path d="M6,0 L6,0 a6,6 0 0 1 6,6 L12,6.005000000000001 a6,6 0 0 1 -6,6 L6,12.005 a6,6 0 0 1 -6,-6 L0,6 a6,6 0 0 1 6,-6 Z"></path></g><g transform="translate(-6,0)"><g fill="#000000" style="pointer-events: none;" transform="translate(6,6)"><g display="none"></g></g></g><title id="id-130-title">From 96% to 100%</title><desc id="id-130-description">Use up and down arrows to move selection</desc></g><g role="slider" focusable="true" tabindex="0" aria-valuemin="0" aria-valuemax="100" display="none" aria-labelledby="id-119-title" aria-valuenow="96" aria-valuetext="To 4%" transform="translate(6,12.0048)" style="touch-action: none; user-select: none; -webkit-user-drag: none; cursor: ns-resize;" aria-describedby="id-119-description"><g fill="#d9d9d9" stroke="#ffffff" fill-opacity="1" stroke-opacity="1" transform="translate(-8,-8)"><path d="M8,0 L8,0 a8,8 0 0 1 8,8 L16,8 a8,8 0 0 1 -8,8 L8,16 a8,8 0 0 1 -8,-8 L0,8 a8,8 0 0 1 8,-8 Z"></path></g><g transform="translate(0,0)"><g stroke="#ffffff" stroke-opacity="0.7" style="pointer-events: none;" transform="translate(0,0) rotate(-90)"><path d=" M-2,-6  L-2,6  M2,-6  L2,6 " transform="translate(3.5,-0.5)"></path></g></g><title id="id-119-title">To 4%</title><desc id="id-119-description">Use up and down arrows to move upper selection</desc></g><g role="slider" focusable="true" tabindex="0" aria-valuemin="0" aria-valuemax="100" display="none" aria-labelledby="id-125-title" aria-valuenow="100" aria-valuetext="From 0%" transform="translate(6,0)" style="touch-action: none; user-select: none; -webkit-user-drag: none; cursor: ns-resize;" aria-describedby="id-125-description"><g fill="#d9d9d9" stroke="#ffffff" fill-opacity="1" stroke-opacity="1" transform="translate(-8,-8)"><path d="M8,0 L8,0 a8,8 0 0 1 8,8 L16,8 a8,8 0 0 1 -8,8 L8,16 a8,8 0 0 1 -8,-8 L0,8 a8,8 0 0 1 8,-8 Z"></path></g><g transform="translate(0,0)"><g stroke="#ffffff" stroke-opacity="0.7" style="pointer-events: none;" transform="translate(0,0) rotate(-90)"><path d=" M-2,-6  L-2,6  M2,-6  L2,6 " transform="translate(3.5,-0.5)"></path></g></g><title id="id-125-title">From 0%</title><desc id="id-125-description">Use up and down arrows to move lower selection</desc></g></g><title id="id-133-title">Use TAB select grip buttons or up and down arrows to change selection</title></g><g fill="#000000"><g display="none"></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-202" aria-labelledby="id-202" aria-checked="true" clip-path="url(&quot;#id-806&quot;)" transform="translate(10,0)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#ef6a1d" stroke="rgba(239,106,29,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="41" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>YUMA</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-232" aria-labelledby="id-232" aria-checked="true" clip-path="url(&quot;#id-807&quot;)" transform="translate(10,41)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#b1260b" stroke="rgba(177,38,11,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="40" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>PINAL</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-262" aria-labelledby="id-262" aria-checked="true" clip-path="url(&quot;#id-808&quot;)" transform="translate(10,82)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#ffb454" stroke="rgba(255,180,84,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="74" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>MARICOPA</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-292" aria-labelledby="id-292" aria-checked="true" clip-path="url(&quot;#id-809&quot;)" transform="translate(10,123)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#910000" stroke="rgba(145,0,0,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="34" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>PIMA</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-322" aria-labelledby="id-322" aria-checked="true" clip-path="url(&quot;#id-810&quot;)" transform="translate(10,164)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#c0370f" stroke="rgba(192,55,15,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="81" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>COCONINO</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-352" aria-labelledby="id-352" aria-checked="true" clip-path="url(&quot;#id-811&quot;)" transform="translate(10,205)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#ffda74" stroke="rgba(255,218,116,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="61" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>MOHAVE</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-382" aria-labelledby="id-382" aria-checked="true" clip-path="url(&quot;#id-812&quot;)" transform="translate(10,246)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#e05919" stroke="rgba(224,89,25,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="56" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>YAVAPAI</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-412" aria-labelledby="id-412" aria-checked="true" clip-path="url(&quot;#id-813&quot;)" transform="translate(10,287)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="0" height="41"></rect></g><g transform="translate(0,8)"><g transform="translate(0,5.5)" style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="14" height="14"></rect></g><g><g stroke-opacity="1" fill="#d6d6d6" stroke="rgba(214,214,214,0)" fill-opacity="1"><path d="M3,0 L11,0 a3,3 0 0 1 3,3 L14,11 a3,3 0 0 1 -3,3 L3,14 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" display="none"><g fill="#ffffff"><rect width="0" height="14"></rect></g><g style="user-select: none;"><foreignobject width="1" height="14"><div style="overflow-wrap: break-word; color: rgb(0, 0, 0); display: block;"><p style="margin:0; font-style:normal;"></p><p></p><p></p></div></foreignobject></g></g><g fill="#000000" transform="translate(19,0)"><g fill="#ffffff"><rect width="38" height="25"></rect></g><g style="user-select: none;"><text x="0" y="24.5" overflow="hidden" dy="-6.615"><tspan>Other</tspan></text></g></g></g></g></g></g></g></g><g display="none"><g transform="translate(0,5)"><g fill="#000000" display="none"><g display="none"></g></g></g></g></g></g><g><g><g role="tooltip" visibility="hidden" opacity="0"><g fill="#ffffff" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-44&quot;)" style="pointer-events: none;" transform="translate(0,6)"><path d="M3,0 L3,0 L0,-6 L13,0 L21,0 a3,3 0 0 1 3,3 L24,8 a3,3 0 0 1 -3,3 L3,11 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(12,6)"><g transform="translate(0,7)" display="none"></g></g></g></g><g visibility="hidden" display="none" style="pointer-events: none;"><g fill="#ffffff" opacity="1"><rect width="357" height="342"></rect></g><g><g><g><g stroke-opacity="1" fill="#f3f3f3" fill-opacity="0.8"><g><g><path d=" M53,0  a53,53,0,0,1,-106,0 a53,53,0,0,1,106,0 M42,0  a42,42,0,0,0,-84,0 a42,42,0,0,0,84,0 L42,0 "></path></g></g></g><g stroke-opacity="1" fill="#000000" fill-opacity="0.2"><g><g><path d=""></path></g></g></g><g fill="#000000" fill-opacity="0.4"><g display="none"></g></g></g></g></g></g><g visibility="hidden"><g fill="rgba(255,255,255,0.9019607843137255)" transform="translate(0,0)"><rect width="357" height="342"></rect></g><g><g fill="#000000" font-size="20" transform="translate(178.5,211)"><g display="none"></g></g><g shape-rendering="auto" stroke="#007ac2" stroke-width="2" transform="translate(162.508,154.92)"><path d="M2.2 16A13.81 13.81 0 0 1 14 2.362v1.01a12.8 12.8 0 1 0 4 0v-1.01A13.792 13.792 0 1 1 2.2 16z"></path></g><g role="button" focusable="true" tabindex="0" transform="translate(308.98,0)"><g fill="#d9d9d9" stroke="#ffffff" fill-opacity="1" stroke-opacity="1" transform="translate(0,6)"><path d="M3,0 L41.02,0 a3,3 0 0 1 3,3 L44.02,25.04 a3,3 0 0 1 -3,3 L3,28.04 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g><g transform="translate(16,8)"><g transform="translate(-5.99,0.03)" style="pointer-events: none;"><path d="M18.01 6.697L12.707 12l5.303 5.303-.707.707L12 12.707 6.697 18.01l-.707-.707L11.293 12 5.99 6.697l.707-.707L12 11.293l5.303-5.303z"></path></g><g fill="#000000" style="pointer-events: none;" transform="translate(12,6)"><g display="none"></g></g></g></g></g></g><g role="tooltip" opacity="0" aria-describedby="id-262" transform="translate(133.5982,196.872)" aria-hidden="true" visibility="hidden"><g fill="#ffffff" fill-opacity="0.9" stroke-width="3" stroke-opacity="1" stroke="#ffb454" filter="url(&quot;#filter-id-161&quot;)" style="pointer-events: none;" transform="translate(-48.5,-52)"><path d="M3,0 L94,0 a3,3 0 0 1 3,3 L97,43 a3,3 0 0 1 -3,3 L94,46 L53.5,46 L48.5,52 L43.5,46 L3,46 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#000000" style="pointer-events: none;" transform="translate(0,-52)"><g transform="translate(-36.5,7)" style="user-select: none;"><foreignobject width="74" height="35"><div style="white-space: nowrap; color: rgb(0, 0, 0); display: block;"><div style="text-align: center; color: rgb(0, 0, 0);">MARICOPA<br><b>4.3M</b> (61%)</div></div></foreignobject></g></g></g></g></g></g></g></g></svg></div></div><div class="hide"></div></template></arcgis-charts-pie-chart>
+
+  </div>
+
+
+<!---->
+<!----></section>
+    
+  </dashboard-tab-zone>
+</full-container>
+  </margin-container>
+</div>
+
+          <div class="dock-tabs" style="left:1417.0249436443867px;top:522.5612696682792px;width:366.97505635561316px;height:38px">
+    <margin-container class="left right">
+      <full-container>
+        <div class="tabs-container">
+<!---->
+          <div class="sortable-collection flex tab-nav ">
+    
+            <div class="tab-title flex items-center is-active" role="button" tabindex="0">
+  
+              <div class="tab-handle p-2 text-n1" role="button">
+  
+                Description
+              
+</div>
+<!---->            
+</div>
+          
+    
+            <div class="tab-title flex items-center" role="button" tabindex="0">
+  
+              <div class="tab-handle p-2 text-n1" role="button">
+  
+                Details
+              
+</div>
+<!---->            
+</div>
+          
+</div>
+        </div>
+      </full-container>
+    </margin-container>
+  </div>
+
+
+          <a class="dock-expand" title="Expand" style="left: 1417.02px; top: 0px;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12px" height="12px">
+      <path vector-effect="non-scaling-stroke" d="M9.645 5.648L13.244 2h-3.205V1h4.9v5h-1V2.719l-3.584 3.633zm-4 4L2.06 13.281V10h-1v5h4.9v-1H2.756l3.6-3.648zM14 10.04v3.205l-3.648-3.6-.704.711 3.633 3.584H10v1h5v-4.9zM2 2.756l3.648 3.6.704-.711L2.719 2.06H6v-1H1v4.9h1z"></path>
+  </svg>
+</a>
+
+<!---->
+<!---->    </full-container>
+  </margin-container>
+</div>
+          </div>
+        </div>
+    </div>
+
+<!---->
+  
+</div>
+
+  <div class="dashboard-container shadow-2 relative calcite-mode-dark flex flex-auto flex-col overflow-hidden hidden">
+    
+<!---->
+    <div class="flex-auto flex relative overflow-hidden">
+<!---->    </div>
+
+<!---->  
+</div>
+
+<!----></calcite-shell>
+<!----></div>
+
+<!----><div hidden="" style="width: 1px; height: 1px; position: absolute; z-index: -1000000;"><div style="width: 100%; height: 100%; position: relative;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="group" style="width: 100%; height: 100%; overflow: visible;"><defs><clippath id="id-28"></clippath><filter id="filter-id-32" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><fegaussianblur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></fegaussianblur><feoffset result="offsetBlur" dx="1" dy="1"></feoffset><feflood flood-color="#000000" flood-opacity="0.5"></feflood><fecomposite in2="offsetBlur" operator="in"></fecomposite><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter></defs></svg></div></div></body></html>

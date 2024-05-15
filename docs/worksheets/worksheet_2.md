@@ -32,11 +32,11 @@ Please share the following information about yourself. Each team member should t
   - **Reflection on Polarities Exercise:** I found myself performing the polarities after the prompts
 
   ---
-  - **Name:** [Jada Szympruch]
-  - **Pronouns:** [She/her]
-  - **Expertise:** [Biological Sciences/Anthropolgy]
+  - **Name:** Jada Szympruch
+  - **Pronouns:** She/her
+  - **Expertise:** Biological Sciences/Anthropolgy
   - **Environmental Data Science Superpower:** []
-  - **Reflection on Polarities Exercise:** [Many internal processers in the group]
+  - **Reflection on Polarities Exercise:** Many internal processers in the group
 
   ---
   - **Name:** [Robyn Marowitz](https://github.com/rmarow)
@@ -44,13 +44,14 @@ Please share the following information about yourself. Each team member should t
   - **Expertise:** Software Development
   - **Environmental Data Science Superpower:** Skills in scientific python programming, expertise in cryospheric data
   - **Reflection on Polarities Exercise:** I often find myself in the middle
+  
   ---
   - **Name:** [Min Gon Chung](https://mingonchung.github.io)
-  - **Pronouns:**he/him/his
+  - **Pronouns:** he/him/his
   - **Expertise:** Postdoc
   - **Environmental Data Science Superpower:** Open data science, R, cross-sectoral data harmonization
   - **Reflection on Polarities Exercise:** middle
-  - 
+
   - Continue adding more team members following the same format, with a line break after each person.
   ---
 ## Research Question: Innovation for Inclusion or Computation (approx. time: 5-10 mins)

@@ -31,17 +31,20 @@ Day 2 report-back questions are about the team *process*. We are interested in y
 4. **Did your group ever have an “ah-ha” moment?  What led up to that moment?** When we picked a plan.
 5. **Did your group experience the groan zone?  What is one tip you want to share with future groups at the Summit about getting through the groan zone?**
      - Yes, we are currently still in the groan zone - difficulty with having data for each year or for ranges
+     - Difficulties with ability to continue
+     - Knowledge of different programming languages
+     - Ease with tools
 
 **************************************************************
 
 ### Looking Ahead: Day 3 Report Back
 *These are the prompts for the final Report Back **tomorrow (Day 3)** - start thinking about these questions as you work today. Each group will share their Day 3 GitHub page on the screen and give a 4 minute presentation.*
 
-- **Project Title:**
-- **Research Question:**
-- **One interesting graphic/finding:**
+- **Project Title:** Snow Birds
+- **Research Question:** Demographic and Economic Costs of Climate Change in an Arid Ecosystem
+- **One interesting graphic/finding:** 
 - **What are you thinking about doing next with your team? Long-term, short-term?**
-- **What’s missing: what resources, people, data sets, etc. does your team need?**
+- **What’s missing: what resources, people, data sets, etc. does your team need?** Resources / time
       
 ### Reminder
 There is the opportunity for groups to continue working on their projects as an ESIIL Working Group. If you love your team and want to continue working together, considering submitting a Working Group Application this fall. See the ESIIL website for more information: <https://esiil.org/working-groups>.

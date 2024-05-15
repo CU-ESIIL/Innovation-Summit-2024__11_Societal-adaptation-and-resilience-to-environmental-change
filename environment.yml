@@ -1,0 +1,37 @@
+name: group-11
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python~=3.8
+  # Core scientific python
+  - numpy
+
+  # Plotting
+  - matplotlib
+  - plotly
+
+  - us
+  - census
+  # Spatial packages
+  - rasterstats
+  - geopy
+  - cartopy
+  - earthpy
+  - folium
+  - geojson
+  - xarray
+  - rioxarray
+  - scipy
+  - netcdf4  
+  - georasters
+
+  # Jupyter Environment
+  - papermill
+  - autopep8
+  - jupyterlab
+  - notebook
+
+pip:
+  - CensusData

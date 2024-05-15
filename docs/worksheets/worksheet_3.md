@@ -1,7 +1,7 @@
 # TEAM ACTIVITY 2: Innovate as a Team
 
 Welcome back! We hope today is a productive day getting to know your team and coding.
-
+Hi team. This is Jada. Sorry I wasn't able to make it today but I wanted to share this water resources database for Arizona with you all. Hope it helps. https://www.azwater.gov/adwr-data-dashboards
 ## Day 2 summary: 
 Please complete the warm-up with your team, briefly review today’s objectives, and carefully read the Day 2 and Day 3 report out items to guide your efforts.  
 

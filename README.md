@@ -4,7 +4,6 @@
 
 Welcome to the  repository, an integral part of ESIIL and Earth Lab's climate change response Codefest. This repository is the central hub for our team, encompassing our project overview, team member information, codebase, and more...
 
-#practice edit
 
 ## Our Project: Demographic and Economic Costs of Climate Change in an Arid Ecosystem
 Hypothesis: Climate change will result in demographic changes with commensurate costs.

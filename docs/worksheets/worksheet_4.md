@@ -12,7 +12,8 @@ Select one or more people from your group to give a final report back. You will 
 - **One interesting graphic/finding:**
     - Population vs. Temperature for Arizona Counties
 - **Something we learned:**
-    - Social environment has the 
+    - Migration is related to the total effective environment, but how a changing physical environment changes the combined socionatural system is unknown.
+    - In environmental science there is a commitment to monitoring the earth system to understand its dynamics and how it is changing. The same cannot be said for agencies that collect social data at large scales. The census bureau, for example, takes snapshots of the US using a different survey each time, so harmonizing data across censuses is often challenging.
 - **What are you thinking about doing next with your team? Long-term, short-term?**
     - We are all interested in continuing the project; logistics unknown
     - Short-term: finish comparing the demographic, temperature, precipitation, and agricultural data

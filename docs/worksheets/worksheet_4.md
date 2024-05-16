@@ -8,8 +8,7 @@ Select one or more people from your group to give a final report back. You will 
 - **Project Title:**
     - Running Uphill: Long-Term Costs of Sunbelt Migration
 - **Research Question:**
-    - Why are so many people moving to the Sunbelt region despite a changing climate and what impact does it have on resource use/production?
-    - What are the aggreagate costs to sustain habitable arid ecosystems? 
+    - What are the aggregate costs to sustain habitable arid ecosystems under climate? 
 - **One interesting graphic/finding:**
     - Population vs. Temperature for Arizona Counties
 - **Something we learned:**
@@ -17,11 +16,11 @@ Select one or more people from your group to give a final report back. You will 
 - **What are you thinking about doing next with your team? Long-term, short-term?**
     - We are all interested in continuing the project; logistics unknown
     - Short-term: finish comparing the demographic, temperature, precipitation, and agricultural data
-    - Long-term: comparative study of cold US city (Minnesota) 
+    - Long-term: international and domestic migration flows; comparative study of cold US city (Minnesota) 
 - **What’s missing: what resources, people, data sets, etc. does your team need?**
     - Resources: logistical support, time, funding (e.g., stipend for grad students and postdocs); especially having a team leader who can take on the facilitator responsibility
-    - Data: electricity use per capita; air conditioners per household; farm subsidies
-    - People: Migration scholars
+    - Data: electricity use per capita; air conditioners per household; farm subsidies; interbasin water transfers; international and domestic migration (all at annual and county scales for comparability)
+    - People: Migration and environmental justice scholars
 
 
 ### Reminder

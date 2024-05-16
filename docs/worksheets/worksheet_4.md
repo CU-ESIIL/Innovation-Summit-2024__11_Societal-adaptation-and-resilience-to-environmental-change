@@ -15,6 +15,9 @@ Select one or more people from your group to give a final report back. You will 
 - **Something we learned:**
     - Migration is related to the total effective environment, but how a changing physical environment changes the combined socionatural system is unknown.
     - In environmental science there is a commitment to monitoring the earth system to understand its dynamics and how it is changing. The same cannot be said for agencies that collect social data at large scales. The census bureau, for example, takes snapshots of the US using a different survey each time, so harmonizing data across censuses is often challenging.
+  
+  ![image](https://github.com/CU-ESIIL/Innovation-Summit-2024__11_Societal-adaptation-and-resilience-to-environmental-change/assets/108202245/b2e7b141-50ab-4f39-9770-4c338ab2738d)
+
 - **What are you thinking about doing next with your team? Long-term, short-term?**
     - We are all interested in continuing the project; logistics unknown
     - Short-term: finish comparing the demographic, temperature, precipitation, and agricultural data

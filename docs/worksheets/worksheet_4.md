@@ -21,9 +21,8 @@ Select one or more people from your group to give a final report back. You will 
     - Long-term: international and domestic migration flows; comparative study of cold US city (Minnesota) 
 - **What’s missing: what resources, people, data sets, etc. does your team need?**
     - Resources: logistical support, time, funding (e.g., stipend for grad students and postdocs); especially having a team leader who can take on the facilitator responsibility
-    - Data: electricity use per capita; air conditioners per household; farm subsidies; interbasin water transfers; international and domestic migration (all at annual and county scales for comparability)
+    - Data: electricity use per capita; air conditioners per household; farm subsidies; interbasin water transfers; international and domestic migration (annual and county scales, over 30+ years for comparability); proprietary data (e.g., private wells)
     - People: Migration and environmental justice scholars
-    - Time series data showing longer trends than 20-years or smaller timesteps (annual)
 
 
 ### Reminder

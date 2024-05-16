@@ -22,6 +22,10 @@ We hypothesize that climate change in arid regions such as Arizona will result i
 - [Min Gon Chung](https://mingonchung.github.io)
 - Jason Tinant
 
+## Resources
+    - Arizona water data by county: https://wrrc.arizona.edu/resources/arizona-water-factsheets
+
+    
 ## Code Repository Structure
 - **Data Processing**: Scripts for cleaning, merging, and managing datasets.
 - **Analysis Code**: Scripts for data analysis, statistical modeling, etc.

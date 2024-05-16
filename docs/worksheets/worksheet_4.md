@@ -11,6 +11,7 @@ Select one or more people from your group to give a final report back. You will 
     - What are the aggregate costs to sustain habitable arid ecosystems under climate change? 
 - **One interesting graphic/finding:**
     - Population vs. Temperature for Arizona Counties
+    - Arizona water data by county: https://wrrc.arizona.edu/resources/arizona-water-factsheets
 - **Something we learned:**
     - Migration is related to the total effective environment, but how a changing physical environment changes the combined socionatural system is unknown.
     - In environmental science there is a commitment to monitoring the earth system to understand its dynamics and how it is changing. The same cannot be said for agencies that collect social data at large scales. The census bureau, for example, takes snapshots of the US using a different survey each time, so harmonizing data across censuses is often challenging.

@@ -8,7 +8,7 @@ Select one or more people from your group to give a final report back. You will 
 - **Project Title:**
     - Running Uphill: Long-Term Costs of Sunbelt Migration
 - **Research Question:**
-    - What are the aggregate costs to sustain habitable arid ecosystems under climate? 
+    - What are the aggregate costs to sustain habitable arid ecosystems under climate change? 
 - **One interesting graphic/finding:**
     - Population vs. Temperature for Arizona Counties
 - **Something we learned:**

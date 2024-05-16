@@ -19,7 +19,7 @@ Select one or more people from your group to give a final report back. You will 
     - Short-term: finish comparing the demographic, temperature, precipitation, and agricultural data
     - Long-term: comparative study of cold US city (Minnesota) 
 - **What’s missing: what resources, people, data sets, etc. does your team need?**
-    - Resources: logistical support, time, funding; especially having a team leader who can take on the facilitator responsibility
+    - Resources: logistical support, time, funding (e.g., stipend for grad students and postdocs); especially having a team leader who can take on the facilitator responsibility
     - Data: electricity use per capita; air conditioners per household; farm subsidies
     - People: Migration scholars
 

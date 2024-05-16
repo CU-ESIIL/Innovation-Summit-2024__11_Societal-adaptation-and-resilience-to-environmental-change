@@ -21,6 +21,7 @@ Select one or more people from your group to give a final report back. You will 
     - Resources: logistical support, time, funding (e.g., stipend for grad students and postdocs); especially having a team leader who can take on the facilitator responsibility
     - Data: electricity use per capita; air conditioners per household; farm subsidies; interbasin water transfers; international and domestic migration (all at annual and county scales for comparability)
     - People: Migration and environmental justice scholars
+    - Time series data showing longer trends than 20-years or smaller timesteps (annual)
 
 
 ### Reminder
